@@ -1,1 +1,4 @@
-@import url(compenents/_reset.css);body{color:white;background-color:black}
+@import url(compenents/_reset.css);
+body {
+  color: white;
+  background-color: black; }
