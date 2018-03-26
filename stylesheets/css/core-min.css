@@ -59,6 +59,31 @@ table {
   font-weight: bold;
   font-style: normal; }
 
+#navBar {
+  height: 75px;
+  width: 100vw;
+  background-color: rgba(170, 73, 0, 0.85);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box; }
+  #navBar #navBarContent {
+    width: 50%; }
+    #navBar #navBarContent ul {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #navBar #navBarContent ul li {
+        height: 50%;
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.3em;
+        text-transform: uppercase; }
+
 body {
   height: 100vh;
   width: 100vw;
