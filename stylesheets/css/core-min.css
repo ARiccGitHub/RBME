@@ -73,16 +73,26 @@ table {
       height: 100%;
       display: flex;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      transition: .5s; }
       #navBar #navBarContent ul li {
         height: 50%;
         width: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
         font-size: 1.3em;
         text-transform: uppercase; }
+
+a {
+  text-decoration: none; }
+  a:link {
+    color: rgba(255, 255, 255, 0.85); }
+  a:visited {
+    color: rgba(255, 255, 255, 0.85); }
+  a:hover {
+    color: #6CDCFF;
+    transition: .5s; }
 
 body {
   height: 100vh;
