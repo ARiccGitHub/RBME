@@ -4,15 +4,16 @@
 a{
   text-decoration: none;
   //unvisited links
-    &:link {
-      color: rgba(255, 255, 255, .85);
-    }
+  &:link {
+    color: rgba(255, 255, 255, .85);
+  }
   //visited links
-    &:visited {
-        color: rgba(255, 255, 255, .85);
-    }
-    &:hover{
-      color: #BAC4E8;
+  &:visited {
+      color: rgba(255, 255, 255, .85);
+  }
+  //hovering transitions colors
+  &:hover{
+      color: #C8D1E8;
       transition: .75s;
     }
 }

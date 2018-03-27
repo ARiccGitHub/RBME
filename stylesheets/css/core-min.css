@@ -109,7 +109,7 @@ a {
   a:visited {
     color: rgba(255, 255, 255, 0.85); }
   a:hover {
-    color: #BAC4E8;
+    color: #C8D1E8;
     transition: .75s; }
 
 #jumbotron {
@@ -129,11 +129,14 @@ a {
     font-weight: 700;
     color: rgba(255, 255, 255, 0.95); }
   #jumbotron #jumboTronContent h2 {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 24%;
     font-size: 200;
     font-size: 2.4em;
     color: rgba(255, 255, 255, 0.95); }
+  #jumbotron #jumboTronContent #jumbotronButton {
+    margin-top: 5%;
+    margin-left: 38%; }
 
 body {
   height: 100vh;
@@ -143,3 +146,25 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   color: black; }
+
+.button {
+  height: 45px;
+  width: 130px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #FFF;
+  box-shadow: 2px 3px rgba(105, 105, 105, 0.5);
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .button a {
+    text-decoration: none;
+    transition: .5s; }
+    .button a:link {
+      color: #596994; }
+    .button a:visited {
+      color: #596994; }
+    .button a:hover {
+      color: #02091D;
+      transition: .5s; }

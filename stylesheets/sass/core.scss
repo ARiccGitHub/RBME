@@ -7,6 +7,7 @@
 @import 'components/typestyles';
 @import 'components/jumbotron';
 
+
 //**** MASTERS CONTROL ****
 body{
   height: 100vh;
@@ -17,3 +18,34 @@ body{
   font-weight: 400;
   color: black;
 }
+
+//******* Supper Botton *****
+.button{
+  height: 45px;
+  width: 130px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #FFF;
+  box-shadow: 2px 3px rgba(105, 105, 105, .50);
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a{
+    text-decoration: none;
+    //unvisited links
+    &:link {
+      color: #596994;
+    }
+    //visited links
+    &:visited {
+      color: #596994;
+    }
+    transition: .5s;
+    //hover slightly the button font color
+    &:hover{
+      color: #02091D;
+      transition: .5s;
+    }
+  }//a
+}//button
