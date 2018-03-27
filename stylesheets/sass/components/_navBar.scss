@@ -1,0 +1,70 @@
+//***** NAV BAR SASS PARTIALS *****
+
+//***** VARIABLES
+$navBarHeight: 75px;
+$navBarBorderStyle: 1px solid #23272E;
+
+//***** HIGH LEVEL ELEMENTS
+hr{
+  width: 65%;
+  border-top: 1px solid #FFF;
+  border-bottom: none;
+}
+
+//***** Classes
+
+//Drop Down Menu div Wrapper
+.navBarDD{
+  position: fixed;
+  top: $navBarHeight - 1px;
+  box-sizing: border-box;
+  border-left: $navBarBorderStyle;
+  border-bottom: $navBarBorderStyle;
+  border-right: $navBarBorderStyle;
+  text-transform: capitalize;
+  display: none;
+  //Nested Dropping Menu ul
+  ul{
+    font-size: 1em;
+    background-color: rgba(27, 24, 24, .46);
+    li{
+      padding: 10px 15px;
+    }
+  }
+}
+
+//***** IDs
+
+//Targeting the Email Link text in dropping Menu
+#email{
+  text-transform: none;
+}
+//navBar
+#navBar{
+  height: $navBarHeight;
+  width:  100vw;
+  background-color: rgba(27, 24, 24, .46);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // Navigation Bar Menu ul
+  #menuBar{
+    display: flex;
+    flex-direction: row;
+    // Navigation Bar Menu li
+    .menuList{
+      height: auto;
+      width: auto;
+      padding: 3% 4%;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      // Dropping Menu Hover
+      &:hover{
+        .navBarDD{
+          display: block;
+        }
+      }//hover
+    }//menuList
+  }//menuBar
+}//navbar
