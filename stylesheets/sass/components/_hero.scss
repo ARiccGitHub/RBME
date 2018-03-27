@@ -1,10 +1,44 @@
 //***** HERO SASS PARTIAL *****
 
-//***** IDs
+
+//******* IDs
+
+//Hero
 #hero{
   height: 692px;
   width: 100vw;
   background: url('imgs/hero-1.jpg') no-repeat;
   background-size:contain;
-  background-color: #c1c1;
-}
+  display:flex;
+  //Learn more button
+  #button{
+    height: 43px;
+    width: 136px;
+    border-radius: 15px;
+    margin-top: 28%;
+    margin-left: 58%;
+    background-color: rgba(255, 255, 255, .85);
+    box-shadow: 2px 3px rgba(105, 105, 105, .50);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+      text-decoration: none;
+      //unvisited links
+      &:link {
+        color: #596994;
+      }
+      //visited links
+      &:visited {
+        color: #596994;
+      }
+      transition: .5s;
+      //hover slightly changes the button font color
+      &:hover{
+        color: #02091D;
+        transition: .5s;
+      }
+    }//a
+  }//button
+}//her0
