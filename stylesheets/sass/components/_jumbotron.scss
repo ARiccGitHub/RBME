@@ -3,25 +3,31 @@
 //***** IDs
 //jumboTron
 #jumbotron{
-  height: 800px;
+  height: 700px;
   width: 100vw;
   background: url('imgs/jumbotronBackground.jpg');
   background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
   #jumboTronContent{
+    //Making RM Logo Sticky
+    p{
+      margin-top: -15%;
+      margin-left: -7.5%;
+    }
     h1{
-      margin-top: -10%;
-      font-size: 5.5em;
+      margin-top: -6.5%;
+      font-size: 4em;
       font-weight: 700;
       color: rgba(255, 255, 255, .95);
     }
     h2{
-      margin-top: 4%;
+      margin-top: 2%;
       margin-left: 24%;
       font-size: 200;
-      font-size: 3.6em;
+      font-size: 2.4em;
       color: rgba(255, 255, 255, .95);
     }
   }
