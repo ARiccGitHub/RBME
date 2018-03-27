@@ -6,7 +6,7 @@
 @import 'components/navbar';
 @import 'components/typestyles';
 @import 'components/jumbotron';
-
+@import 'components/hero';
 
 //**** MASTERS CONTROL ****
 body{
@@ -21,8 +21,8 @@ body{
 
 //******* Supper Botton *****
 .button{
-  height: 45px;
-  width: 130px;
+  height: 43px;
+  width: 136px;
   position: relative;
   border-radius: 15px;
   background-color: #FFF;

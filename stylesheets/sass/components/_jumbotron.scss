@@ -3,7 +3,7 @@
 //***** IDs
 //jumboTron
 #jumbotron{
-  height: 700px;
+  height: 500px;
   width: 100vw;
   background: url('imgs/jumbotronBackground.jpg');
   background-size: cover;
@@ -14,7 +14,7 @@
   #jumboTronContent{
     //Making RM Logo Sticky
     p{
-      margin-top: -15%;
+      margin-top: 3%;
       margin-left: -7.5%;
     }
     //Headers text
@@ -32,8 +32,8 @@
       color: rgba(255, 255, 255, .95);
     }
     #jumbotronButton{
-      margin-top: 5%;
-      margin-left: 38%;
+      margin-top: 7%;
+      margin-left: 65%;
     }
-  }//jumboTronContent
+  }//jumbotronContent
 }//jumbotron
