@@ -59,30 +59,48 @@ table {
   font-weight: bold;
   font-style: normal; }
 
+hr {
+  width: 65%;
+  border-top: 1px solid #FFF;
+  border-bottom: none; }
+
+.navBarDD {
+  position: fixed;
+  top: 74px;
+  box-sizing: border-box;
+  border-left: 1px solid #23272E;
+  border-bottom: 1px solid #23272E;
+  border-right: 1px solid #23272E;
+  text-transform: capitalize;
+  display: none; }
+  .navBarDD ul {
+    font-size: 1em;
+    background-color: rgba(27, 24, 24, 0.46); }
+    .navBarDD ul li {
+      padding: 10px 15px; }
+
+#email {
+  text-transform: none; }
+
 #navBar {
   height: 75px;
   width: 100vw;
-  background-color: rgba(170, 73, 0, 0.85);
+  background-color: rgba(27, 24, 24, 0.46);
   position: fixed;
   display: flex;
   justify-content: center;
-  box-sizing: border-box; }
-  #navBar #navBarContent {
-    width: 50%; }
-    #navBar #navBarContent ul {
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      transition: .5s; }
-      #navBar #navBarContent ul li {
-        height: 50%;
-        width: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-transform: uppercase; }
+  align-items: center; }
+  #navBar #menuBar {
+    display: flex;
+    flex-direction: row; }
+    #navBar #menuBar .menuList {
+      height: auto;
+      width: auto;
+      padding: 3% 4%;
+      font-size: 1.5em;
+      text-transform: uppercase; }
+      #navBar #menuBar .menuList:hover .navBarDD {
+        display: block; }
 
 a {
   text-decoration: none; }
@@ -91,8 +109,8 @@ a {
   a:visited {
     color: rgba(255, 255, 255, 0.85); }
   a:hover {
-    color: #6CDCFF;
-    transition: .5s; }
+    color: #C6C1E4;
+    transition: .75s; }
 
 body {
   height: 100vh;

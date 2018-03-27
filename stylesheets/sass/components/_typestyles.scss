@@ -1,18 +1,18 @@
-//TYPE STYLESHEETS
+//***** TYPE STYLESHEETS
 
-//ELEMENTS
+//***** ELEMENTS
 a{
   text-decoration: none;
-  // unvisited links
+  //unvisited links
     &:link {
       color: rgba(255, 255, 255, .85);
     }
-  // visited links
+  //visited links
     &:visited {
         color: rgba(255, 255, 255, .85);
     }
     &:hover{
-      color: #6CDCFF;
-      transition: .5s;
+      color: #C6C1E4;
+      transition: .75s;
     }
 }
