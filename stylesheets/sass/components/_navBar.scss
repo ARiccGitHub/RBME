@@ -1,10 +1,10 @@
 //***** NAV BAR SASS PARTIALS *****
 
-//***** VARIABLES
+//***** Variables
 $navBarHeight: 75px;
 $navBarBorderStyle: 1px solid #23272E;
 
-//***** HIGH LEVEL ELEMENTS
+//***** High Level Elements
 hr{
   width: 65%;
   border-top: 1px solid #FFF;
@@ -34,7 +34,6 @@ hr{
 }
 
 //***** IDs
-
 //Targeting the Email Link text in dropping Menu
 #email{
   text-transform: none;

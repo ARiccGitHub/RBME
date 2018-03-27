@@ -109,8 +109,14 @@ a {
   a:visited {
     color: rgba(255, 255, 255, 0.85); }
   a:hover {
-    color: #9C0014;
+    color: #BAC4E8;
     transition: .75s; }
+
+#jumbotron {
+  height: 800px;
+  width: 100vw;
+  background: url("imgs/jumbotronBackground.jpg");
+  background-size: cover; }
 
 body {
   height: 100vh;
