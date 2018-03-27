@@ -75,7 +75,7 @@ hr {
   display: none; }
   .navBarDD ul {
     font-size: 1em;
-    background-color: rgba(27, 24, 24, 0.46); }
+    background-color: rgba(27, 24, 24, 0.65); }
     .navBarDD ul li {
       padding: 10px 15px; }
 
@@ -85,7 +85,7 @@ hr {
 #navBar {
   height: 75px;
   width: 100vw;
-  background-color: rgba(27, 24, 24, 0.46);
+  background-color: rgba(27, 24, 24, 0.65);
   position: fixed;
   display: flex;
   justify-content: center;
