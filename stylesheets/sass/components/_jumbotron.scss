@@ -5,7 +5,8 @@
 #jumbotron{
   height: 700px;
   width: 100vw;
-  background: url('imgs/jumbotronBackground.jpg');
+
+  background: url('imgs/jumbotron.jpg');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -18,22 +19,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   //RM Logo
-    p{
-      margin-top: -6%;
+    color: #fff;
+    //RM logo
+    div{
+      margin-top: 2%;
     }
     //Headers text
     h1{
-      margin: .5%;
+      margin-top: 1.7%;
       font-size: 4em;
       font-weight: 700;
-      color: rgba(255, 255, 255, .95);
     }
     h2{
-      margin: .5%;
+      margin-top: .7%;
+
       font-size: 200;
       font-size: 3em;
-      color: rgba(255, 255, 255, .95);
     }
   }//jumbotronContent
 }//jumbotron
