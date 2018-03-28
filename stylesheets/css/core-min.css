@@ -75,7 +75,7 @@ hr {
   display: none; }
   .navBarDD ul {
     font-size: 1em;
-    background-color: rgba(27, 24, 24, 0.65); }
+    background-color: rgba(27, 24, 24, 0.45); }
     .navBarDD ul li {
       padding: 10px 15px; }
 
@@ -85,7 +85,7 @@ hr {
 #navBar {
   height: 75px;
   width: 100vw;
-  background-color: rgba(27, 24, 24, 0.65);
+  background-color: rgba(27, 24, 24, 0.35);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -115,7 +115,7 @@ a {
 #jumbotron {
   height: 700px;
   width: 100vw;
-  background: url("imgs/jumbotronBackground.jpg");
+  background: url("imgs/jumbotron.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -126,32 +126,33 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; }
-    #jumbotron #jumboTronContent p {
-      margin-top: -6%; }
+    flex-direction: column;
+    color: #fff; }
+    #jumbotron #jumboTronContent div {
+      margin-top: 2%; }
     #jumbotron #jumboTronContent h1 {
-      margin: .5%;
+      margin-top: 1.7%;
       font-size: 4em;
-      font-weight: 700;
-      color: rgba(255, 255, 255, 0.95); }
+      font-weight: 700; }
     #jumbotron #jumboTronContent h2 {
-      margin: .5%;
+      margin-top: .7%;
       font-size: 200;
-      font-size: 3em;
-      color: rgba(255, 255, 255, 0.95); }
+      font-size: 3em; }
 
 #hero {
-  height: 692px;
-  width: 100vw;
+  height: 600px;
+  width: 100%;
   background: url("imgs/hero-1.jpg") no-repeat;
-  background-size: contain;
-  display: flex; }
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   #hero #button {
     height: 43px;
     width: 136px;
     border-radius: 15px;
-    margin-top: 28%;
-    margin-left: 58%;
+    margin-top: 23%;
+    margin-left: 28%;
     background-color: rgba(255, 255, 255, 0.85);
     box-shadow: 2px 3px rgba(105, 105, 105, 0.5);
     font-size: 1.5em;
@@ -168,6 +169,26 @@ a {
       #hero #button a:hover {
         color: #02091D;
         transition: .5s; }
+
+#heroStatement {
+  height: 485px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  user-select: none; }
+  #heroStatement #heroStatementContent {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.4em; }
+    #heroStatement #heroStatementContent strong {
+      font-weight: 400; }
 
 body {
   height: 100vh;
