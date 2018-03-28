@@ -75,7 +75,7 @@ hr {
   display: none; }
   .navBarDD ul {
     font-size: 1em;
-    background-color: rgba(27, 24, 24, 0.45); }
+    background-color: rgba(27, 24, 24, 0.75); }
     .navBarDD ul li {
       padding: 10px 15px; }
 
@@ -85,7 +85,7 @@ hr {
 #navBar {
   height: 75px;
   width: 100vw;
-  background-color: rgba(27, 24, 24, 0.35);
+  background-color: rgba(27, 24, 24, 0.55);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -113,9 +113,9 @@ a {
     transition: .75s; }
 
 #jumbotron {
-  height: 700px;
+  height: 703px;
   width: 100vw;
-  background: url("imgs/jumbotron.jpg");
+  background: url("imgs/jumbotronOrange.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -127,17 +127,17 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff; }
+    color: #E6E6E6; }
     #jumbotron #jumboTronContent div {
-      margin-top: 2%; }
+      margin-top: -2%; }
     #jumbotron #jumboTronContent h1 {
-      margin-top: 1.7%;
-      font-size: 4em;
+      margin-top: 1%;
+      font-size: 3.7em;
       font-weight: 700; }
     #jumbotron #jumboTronContent h2 {
-      margin-top: .7%;
+      margin-top: .5%;
       font-size: 200;
-      font-size: 3em; }
+      font-size: 2.7em; }
 
 #hero {
   height: 600px;
@@ -147,33 +147,38 @@ a {
   display: flex;
   justify-content: center;
   align-items: center; }
-  #hero #button {
-    height: 43px;
-    width: 136px;
-    border-radius: 15px;
-    margin-top: 23%;
-    margin-left: 28%;
-    background-color: rgba(255, 255, 255, 0.85);
-    box-shadow: 2px 3px rgba(105, 105, 105, 0.5);
-    font-size: 1.5em;
+  #hero #hero1ContentWrapper {
+    height: 600px;
+    width: 1700px;
     display: flex;
     justify-content: center;
     align-items: center; }
-    #hero #button a {
-      text-decoration: none;
-      transition: .5s; }
-      #hero #button a:link {
-        color: #596994; }
-      #hero #button a:visited {
-        color: #596994; }
-      #hero #button a:hover {
-        color: #02091D;
+    #hero #hero1ContentWrapper #button {
+      height: 43px;
+      width: 136px;
+      border-radius: 15px;
+      margin-top: 23%;
+      margin-left: 28%;
+      background-color: rgba(255, 255, 255, 0.85);
+      box-shadow: 2px 3px rgba(105, 105, 105, 0.5);
+      font-size: 1.4em;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #hero #hero1ContentWrapper #button a {
+        text-decoration: none;
         transition: .5s; }
+        #hero #hero1ContentWrapper #button a:link {
+          color: #596994; }
+        #hero #hero1ContentWrapper #button a:visited {
+          color: #596994; }
+        #hero #hero1ContentWrapper #button a:hover {
+          color: #02091D;
+          transition: .5s; }
 
 #heroStatement {
   height: 485px;
   width: 100%;
-  position: absolute;
   display: flex;
   justify-content: center;
   user-select: none; }
@@ -189,6 +194,34 @@ a {
     line-height: 1.4em; }
     #heroStatement #heroStatementContent strong {
       font-weight: 400; }
+
+#features {
+  height: 1400px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center; }
+  #features #featuresContent {
+    height: 100%;
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #c1c1c1; }
+    #features #featuresContent .featuresContentWrapper {
+      height: 100%;
+      width: 800px;
+      background-color: #FFF;
+      border: 1px solid #000;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column; }
+      #features #featuresContent .featuresContentWrapper .featuresContent {
+        height: 555px;
+        width: 690px;
+        background-color: #c1c1; }
 
 body {
   height: 100vh;

@@ -12,35 +12,44 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  //Learn more button
-  #button{
-    height: 43px;
-    width: 136px;
-    border-radius: 15px;
-    margin-top: 23%;
-    margin-left: 28%;
-    background-color: rgba(255, 255, 255, .85);
-    box-shadow: 2px 3px rgba(105, 105, 105, .50);
-    font-size: 1.5em;
+  //hero Content Wrapper
+  #hero1ContentWrapper{
+    height: 600px;
+    width: 1700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    a{
-      text-decoration: none;
-      //unvisited links
-      &:link {
-        color: #596994;
-      }
-      //visited links
-      &:visited {
-        color: #596994;
-      }
-      transition: .5s;
-      //hover slightly changes the button font color
-      &:hover{
-        color: #02091D;
+
+    //Learn more button
+    #button{
+      height: 43px;
+      width: 136px;
+      border-radius: 15px;
+      margin-top: 23%;
+      margin-left: 28%;
+      background-color: rgba(255, 255, 255, .85);
+      box-shadow: 2px 3px rgba(105, 105, 105, .50);
+      font-size: 1.4em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        text-decoration: none;
+        //unvisited links
+        &:link {
+          color: #596994;
+        }
+        //visited links
+        &:visited {
+          color: #596994;
+        }
         transition: .5s;
-      }
-    }//a
-  }//button
+        //hover slightly changes the button font color
+        &:hover{
+          color: #02091D;
+          transition: .5s;
+        }
+      }//a
+    }//button
+  }//heroContentWrapper
 }//hero

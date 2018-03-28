@@ -1,1 +1,38 @@
 //***** Features SASS PARTIAL *****
+
+        //***** IDs
+// Features
+#features{
+  height: 1400px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  // features Wrapper
+  #featuresContent{
+    height: 100%;
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #c1c1c1;
+    // features Content Wrapper
+    .featuresContentWrapper{
+      height: 100%;
+      width: 800px;
+      background-color: #FFF;
+      border: 1px solid #000;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
+      align-items:center;
+      flex-direction: column;
+      //features Content
+      .featuresContent{
+        height: 555px;
+        width: 690px;
+        background-color: #c1c1;
+      }
+    }
+  }//featuresContent
+}//features
