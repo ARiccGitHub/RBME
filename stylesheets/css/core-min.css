@@ -179,6 +179,7 @@ a {
 #heroStatement {
   height: 485px;
   width: 100%;
+  border: 1px solid #000;
   display: flex;
   justify-content: center;
   user-select: none; }
@@ -195,33 +196,64 @@ a {
     #heroStatement #heroStatementContent strong {
       font-weight: 400; }
 
+#features #featuresContent .featuresContentWrapper .featuresServiceMeter, #features #featuresContent .featuresContentWrapper .featuresDocProduct {
+  height: 325px;
+  width: 445px;
+  background-color: #E5EFF7;
+  box-shadow: 2px 3px rgba(105, 105, 105, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #features #featuresContent .featuresContentWrapper .featuresServiceMeter h1, #features #featuresContent .featuresContentWrapper .featuresDocProduct h1 {
+    font-size: 1.85em;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1%; }
+    #features #featuresContent .featuresContentWrapper .featuresServiceMeter h1 a, #features #featuresContent .featuresContentWrapper .featuresDocProduct h1 a {
+      text-decoration: none; }
+      #features #featuresContent .featuresContentWrapper .featuresServiceMeter h1 a:link, #features #featuresContent .featuresContentWrapper .featuresDocProduct h1 a:link {
+        color: #030303; }
+      #features #featuresContent .featuresContentWrapper .featuresServiceMeter h1 a:visited, #features #featuresContent .featuresContentWrapper .featuresDocProduct h1 a:visited {
+        color: #030303; }
+      #features #featuresContent .featuresContentWrapper .featuresServiceMeter h1 a:hover, #features #featuresContent .featuresContentWrapper .featuresDocProduct h1 a:hover {
+        color: #656B6F;
+        transition: .75s; }
+  #features #featuresContent .featuresContentWrapper .featuresServiceMeter h2, #features #featuresContent .featuresContentWrapper .featuresDocProduct h2 {
+    font-size: .95em;
+    font-weight: 400; }
+
 #features {
-  height: 1400px;
+  height: 800px;
   width: 100%;
-  background-color: #000;
   display: flex;
   justify-content: center; }
   #features #featuresContent {
     height: 100%;
-    width: 1700px;
+    width: 1200px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    background-color: #c1c1c1; }
+    flex-direction: row; }
     #features #featuresContent .featuresContentWrapper {
       height: 100%;
       width: 800px;
       background-color: #FFF;
-      border: 1px solid #000;
       box-sizing: border-box;
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-direction: column; }
-      #features #featuresContent .featuresContentWrapper .featuresContent {
-        height: 555px;
-        width: 690px;
-        background-color: #c1c1; }
+      #features #featuresContent .featuresContentWrapper .featuresServiceMeter div {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 4%; }
+      #features #featuresContent .featuresContentWrapper .featuresDocProduct div {
+        height: 200px;
+        width: 200px; }
+
+#serviceIcon {
+  background: url("imgs/RmService.png") no-repeat;
+  background-size: contain; }
 
 body {
   height: 100vh;
