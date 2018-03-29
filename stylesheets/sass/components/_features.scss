@@ -2,40 +2,25 @@
 
         //***** PLACEHOLDERS
 
-// Service Call and Meter Counter
-%featuresServiceMeterPlaceholder{
-  height: 325px;
+// Features Palaceholder
+%featuresPlaceholder{
+  height: 400px;
   width: 445px;
-  background-color: #E5EFF7;
-  box-shadow: 2px 3px rgba(105, 105, 105, .50);
+  box-shadow: 3px 4px rgba(105, 105, 105, .50);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   h1{
-    font-size: 1.85em;
+    font-size: 2.5em;
     font-weight: 700;
     text-transform: capitalize;
-    margin-bottom: 1%;
     a{
       text-decoration: none;
-      //unvisited links
-      &:link {
-        color: #030303;
-      }
-      //visited links
-      &:visited {
-          color: #030303;
-      }
-      //hovering transitions colors
-      &:hover{
-          color: #656B6F;
-          transition: .75s;
-      }
     }
   }
   h2{
-    font-size: .95em;
+    font-size: 1.5em;
     font-weight: 400;
   }
 }
@@ -43,49 +28,116 @@
 
 // Features
 #features{
-  height: 800px;
+  height: 855px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  align-items: center;
   // features Wrapper
   #featuresContent{
     height: 100%;
-    width: 1200px;
+    width: 1050px;
+
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    align-items: center;
     flex-direction: row;
     // features Content Wrapper
     .featuresContentWrapper{
       height: 100%;
       width: 800px;
-      background-color: #FFF;
-      box-sizing: border-box;
+
       display: flex;
-      justify-content: space-around;
+      justify-content:space-around;
       align-items:center;
       flex-direction: column;
-      //features Content
+
+      //features Service Call and Meter Reading
       .featuresServiceMeter{
-        @extend %featuresServiceMeterPlaceholder;
+        @extend %featuresPlaceholder;
+        background-color: #E5EFF7;
+        //Icon
         div{
           height: 200px;
           width: 200px;
           margin-bottom: 4%;
         }
-      }
+        //Link
+        h1{
+          margin-bottom: 1%;
+          a{
+            //unvisited links
+            &:link {
+              color: #030303;
+            }
+            //visited links
+            &:visited {
+                color: #030303;
+            }
+            //hovering transitions colors
+            &:hover{
+                color: #656B6F;
+                transition: .75s;
+            }
+          }
+        }//h1
+      }//featuresServiceMeter
+      // Features Document Solutions and Product Catatlog
       .featuresDocProduct{
-        @extend %featuresServiceMeterPlaceholder;
+        @extend %featuresPlaceholder;
+        background-color: #000;
         div{
-          height: 200px;
-          width: 200px;
+          margin-top: -7%;
+          height: 300px;
+          width: 300px;
         }
-      }
+        //Link
+        h1{
+          margin-top: -8%;
+          margin-bottom: 2%;
+          a{
+            //unvisited links
+            &:link {
+              color: #FFF;
+            }
+            //visited links
+            &:visited {
+                color: #FFF;
+            }
+            //hovering transitions colors
+            &:hover{
+                color: #656B6F;
+                transition: .75s;
+            }
+          }
+        }//h1
+        h2{
+          color: #FFF;
+        }
+      }//featuresDocProduct
     }//featuresContentWrapper
   }//featuresContent
 }//features
 
-// Sevice call icon
+//Sevice Call icon
 #serviceIcon{
   background: url('imgs/RmService.png') no-repeat;
+  background-size: contain;
+}
+
+#meterIcon{
+  background: url('imgs/RmMeter.png') no-repeat;
+  background-size: contain;
+}
+
+//Document Solutions Icon
+#documentIcon{
+  background: url('imgs/RmDocIcon.png') no-repeat;
+  background-size: contain;
+}
+
+//Document Solutions Icon
+#productIcon{
+  background: url('imgs/RmManuel.png') no-repeat;
   background-size: contain;
 }

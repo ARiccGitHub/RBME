@@ -5,28 +5,31 @@
 
 //Hero
 #hero{
-  height: 600px;
+  height: 579px;
   width: 100%;
-  background: url('imgs/hero-1.jpg') no-repeat;
-  background-size: cover;
+  background-color: #C7C4C0;
+
   display:flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   //hero Content Wrapper
-  #hero1ContentWrapper{
-    height: 600px;
-    width: 1700px;
+  #heroContentWrapper{
+    height: 100%;
+    width: 100%;
+    background: url('imgs/hero-1.jpg') no-repeat;
+    background-size: contain;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
     //Learn more button
     #button{
+      position: absolute;
       height: 43px;
       width: 136px;
       border-radius: 15px;
-      margin-top: 23%;
-      margin-left: 28%;
+      margin-top: 11%;
+      margin-left: 10%;
       background-color: rgba(255, 255, 255, .85);
       box-shadow: 2px 3px rgba(105, 105, 105, .50);
       font-size: 1.4em;
