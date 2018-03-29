@@ -5,7 +5,7 @@
 
 //Hero
 #hero{
-  height: 690px;
+  height: 692px;
   width: 100%;
   @media (max-width: 1000px){
     height: 375px;
@@ -22,7 +22,7 @@
   #heroContentWrapper{
     height: 15%;
     width: 15%;
-    margin-right: 35%;
+    margin-right: 20%;
     margin-bottom: 7%;
     position: sticky;
     display: flex;
@@ -34,8 +34,6 @@
       height: 43px;
       width: 136px;
       border-radius: 15px;
-      margin-top: 20%;
-      margin-left: 10%;
       background-color: rgba(255, 255, 255, .85);
       box-shadow: 2px 3px rgba(105, 105, 105, .50);
       font-size: 1.4em;
