@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>@_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="211.5" cy="211.5" r="211.5"></circle>
+    </defs>
+    <g id="@_1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="@" transform="translate(46.000000, 48.000000)">
+            <g id="Oval">
+                <use fill="#C0D1FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#020202" stroke-width="15" cx="211.5" cy="211.5" r="219"></circle>
+            </g>
+            <text font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="258" font-weight="normal" letter-spacing="-9.15899944" fill="#020202">
+                <tspan x="76.2879958" y="275">@</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

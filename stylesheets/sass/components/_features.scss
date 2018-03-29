@@ -28,8 +28,9 @@
 
 // Features
 #features{
-  height: 855px;
+  height: 900px;
   width: 100%;
+  margin-bottom: 4%;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -65,6 +66,7 @@
         //Link
         h1{
           margin-bottom: 1%;
+          transition: .5s;
           a{
             //unvisited links
             &:link {
@@ -76,8 +78,8 @@
             }
             //hovering transitions colors
             &:hover{
-                color: #656B6F;
-                transition: .75s;
+                color: rgba(0, 0, 0, .68);
+                transition: .5s;
             }
           }
         }//h1
@@ -95,6 +97,7 @@
         h1{
           margin-top: -8%;
           margin-bottom: 2%;
+          transition: .5s;
           a{
             //unvisited links
             &:link {
@@ -106,8 +109,8 @@
             }
             //hovering transitions colors
             &:hover{
-                color: #656B6F;
-                transition: .75s;
+                color: rgba(255,255, 225, .98);
+                transition: .5s;
             }
           }
         }//h1
