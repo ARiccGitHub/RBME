@@ -1,0 +1,143 @@
+//***** Features SASS PARTIAL *****
+
+        //***** PLACEHOLDERS
+
+// Features Palaceholder
+%featuresPlaceholder{
+  height: 400px;
+  width: 445px;
+  box-shadow: 3px 4px rgba(105, 105, 105, .50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+    a{
+      text-decoration: none;
+    }
+  }
+  h2{
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+}
+        //***** IDs
+
+// Features
+#features{
+  height: 855px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  // features Wrapper
+  #featuresContent{
+    height: 100%;
+    width: 1050px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    // features Content Wrapper
+    .featuresContentWrapper{
+      height: 100%;
+      width: 800px;
+
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+      flex-direction: column;
+
+      //features Service Call and Meter Reading
+      .featuresServiceMeter{
+        @extend %featuresPlaceholder;
+        background-color: #E5EFF7;
+        //Icon
+        div{
+          height: 200px;
+          width: 200px;
+          margin-bottom: 4%;
+        }
+        //Link
+        h1{
+          margin-bottom: 1%;
+          a{
+            //unvisited links
+            &:link {
+              color: #030303;
+            }
+            //visited links
+            &:visited {
+                color: #030303;
+            }
+            //hovering transitions colors
+            &:hover{
+                color: #656B6F;
+                transition: .75s;
+            }
+          }
+        }//h1
+      }//featuresServiceMeter
+      // Features Document Solutions and Product Catatlog
+      .featuresDocProduct{
+        @extend %featuresPlaceholder;
+        background-color: #000;
+        div{
+          margin-top: -7%;
+          height: 300px;
+          width: 300px;
+        }
+        //Link
+        h1{
+          margin-top: -8%;
+          margin-bottom: 2%;
+          a{
+            //unvisited links
+            &:link {
+              color: #FFF;
+            }
+            //visited links
+            &:visited {
+                color: #FFF;
+            }
+            //hovering transitions colors
+            &:hover{
+                color: #656B6F;
+                transition: .75s;
+            }
+          }
+        }//h1
+        h2{
+          color: #FFF;
+        }
+      }//featuresDocProduct
+    }//featuresContentWrapper
+  }//featuresContent
+}//features
+
+//Sevice Call icon
+#serviceIcon{
+  background: url('imgs/RmService.png') no-repeat;
+  background-size: contain;
+}
+
+#meterIcon{
+  background: url('imgs/RmMeter.png') no-repeat;
+  background-size: contain;
+}
+
+//Document Solutions Icon
+#documentIcon{
+  background: url('imgs/RmDocIcon.png') no-repeat;
+  background-size: contain;
+}
+
+//Document Solutions Icon
+#productIcon{
+  background: url('imgs/RmManuel.png') no-repeat;
+  background-size: contain;
+}
