@@ -5,33 +5,36 @@
 
 //Hero
 #hero{
-  height: 579px;
+  height: 690px;
   width: 100%;
+  @media (max-width: 1000px){
+    height: 375px;
+  }
+  //Background images animation
+  animation-name: backgroundImgs;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
   display:flex;
-  justify-content:center;
-  align-items: center;
+  justify-content:flex-end;
+  align-items: flex-end;
   //hero Content Wrapper
   #heroContentWrapper{
-    //position: absolute;
-    height: 100%;
-    width: 100%;
-
-    //Background images animation
-    animation-name: backgroundImgs;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function:ease-in-out;
-
+    height: 15%;
+    width: 15%;
+    margin-right: 35%;
+    margin-bottom: 7%;
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
     //Learn more button
     #button{
-      position: absolute;
+      position: sticky;
       height: 43px;
       width: 136px;
       border-radius: 15px;
-      margin-top: 11%;
+      margin-top: 20%;
       margin-left: 10%;
       background-color: rgba(255, 255, 255, .85);
       box-shadow: 2px 3px rgba(105, 105, 105, .50);
@@ -52,7 +55,7 @@
         transition: .5s;
         //hover slightly changes the button font color
         &:hover{
-          color: #02091D;
+          color: #000;
           transition: .5s;
         }
       }//a

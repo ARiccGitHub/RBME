@@ -1,5 +1,9 @@
 //***** JUMBOTRON SASS PARTIAL *****
 
+
+//***** media Media Queries
+
+
 //***** IDs
 //Hero RM Statement text
 #heroStatement{
@@ -7,20 +11,29 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   user-select: none;
   //Hero Content Wrapper
   #heroStatementContent{
     height: 100%;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 3em;
+    @media (max-width: 1200px){
+      font-size: 2em;
+      min-width: 1200px;
+    }
     font-weight: 300;
     line-height: 1.4em;
     strong{
       font-weight: 400;
     }
   }
+}
+
+@media only screen and (max-width: 400px){
+  font-size: 1em;
 }
