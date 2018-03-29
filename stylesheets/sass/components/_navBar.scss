@@ -26,7 +26,7 @@ hr{
   //Nested Dropping Menu ul
   ul{
     font-size: 1em;
-    background-color: rgba(27, 24, 24, .45);
+    background-color: rgba(27, 24, 24, 0.75);
     li{
       padding: 10px 15px;
     }
@@ -42,7 +42,8 @@ hr{
 #navBar{
   height: $navBarHeight;
   width:  100vw;
-  background-color: rgba(27, 24, 24, .35);
+  background-color: rgba(27, 24, 24, .55);
+  top: 0;
   position: fixed;
   display: flex;
   justify-content: center;

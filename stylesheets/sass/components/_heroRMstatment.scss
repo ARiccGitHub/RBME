@@ -3,16 +3,15 @@
 //***** IDs
 //Hero RM Statement text
 #heroStatement{
-  height: 485px;
+  height: 65%;
   width: 100%;
-  position:absolute;
   display: flex;
   justify-content: center;
   user-select: none;
   //Hero Content Wrapper
   #heroStatementContent{
     height: 100%;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
