@@ -7,18 +7,21 @@
 #hero{
   height: 579px;
   width: 100%;
-  background-color: #C7C4C0;
-
   display:flex;
   justify-content:center;
   align-items: center;
   //hero Content Wrapper
   #heroContentWrapper{
+    //position: absolute;
     height: 100%;
     width: 100%;
-    background: url('imgs/hero-1.jpg') no-repeat;
-    background-size: contain;
-    background-position: center;
+
+    //Background images animation
+    animation-name: backgroundImgs;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,3 +59,41 @@
     }//button
   }//heroContentWrapper
 }//hero
+
+//background image animation for the main hero
+
+@keyframes backgroundImgs{
+  0%{
+    background: url('imgs/hero-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-duration: 5s;
+  }
+  25%{
+    background: url('imgs/hero-4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-duration: 5s;
+  }
+
+  50%{
+    background: url('imgs/hero-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-duration: 5s;
+  }
+
+  75%{
+    background:url('imgs/hero-3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-duration: 5s;
+  }
+
+  100%{
+    background: url('imgs/hero-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-duration: 5s;
+  }
+}
