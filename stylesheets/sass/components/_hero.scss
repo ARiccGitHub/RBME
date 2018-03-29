@@ -7,9 +7,12 @@
 #hero{
   height: 690px;
   width: 100%;
+  @media (max-width: 1000px){
+    height: 375px;
+  }
   //Background images animation
   animation-name: backgroundImgs;
-  animation-duration: 20s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-timing-function:ease-in-out;
   display:flex;

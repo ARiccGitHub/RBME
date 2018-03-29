@@ -3,10 +3,9 @@
 //***** IDs
 //jumboTron
 #jumbotron{
-  height: 700px;
+  height: 600px;
   width: 100%;
-
-  background: url('imgs/jumbotronOrange.jpg');
+  background: url('imgs/jumbotron.jpg');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -22,7 +21,7 @@
     color: #E6E6E6;
     //RM logo
     div{
-      margin-top: -2%;
+      margin-top: 3%;
     }
     //Headers text
     h1{
