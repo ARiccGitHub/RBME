@@ -28,6 +28,7 @@
         transition: .5s;
       }
       h1{
+        margin-left: -29%;
         font-size: 2em;
         a{
           //unvisited links
@@ -40,7 +41,7 @@
           }
           //hovering transitions colors
           &:hover{
-              color: #656B6F;
+              color: #C8D1E8;
               transition: .5s;
           }
         }//a
