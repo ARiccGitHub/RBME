@@ -6,7 +6,7 @@
 %featuresPlaceholder{
   height: 400px;
   width: 445px;
-  box-shadow: 3px 4px rgba(105, 105, 105, .50);
+  box-shadow: 3px 4px rgba(105, 105, 105, .40);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,7 @@
   height: 900px;
   width: 100%;
   margin-bottom: 4%;
+  border-top: 1px solid #000;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -38,7 +39,6 @@
   #featuresContent{
     height: 100%;
     width: 1050px;
-
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -47,7 +47,6 @@
     .featuresContentWrapper{
       height: 100%;
       width: 800px;
-
       display: flex;
       justify-content:space-around;
       align-items:center;
@@ -56,7 +55,7 @@
       //features Service Call and Meter Reading
       .featuresServiceMeter{
         @extend %featuresPlaceholder;
-        background-color: #E5EFF7;
+        background-color: #01438A;
         //Icon
         div{
           height: 200px;
@@ -70,19 +69,22 @@
           a{
             //unvisited links
             &:link {
-              color: #030303;
+              color: #EDEDED;
             }
             //visited links
             &:visited {
-                color: #030303;
+                color: #EDEDED;
             }
             //hovering transitions colors
             &:hover{
-                color: rgba(0, 0, 0, .68);
+                color: #C8D1E8;
                 transition: .5s;
             }
           }
         }//h1
+        h2{
+          color: #EDEDED;
+        }
       }//featuresServiceMeter
       // Features Document Solutions and Product Catatlog
       .featuresDocProduct{
@@ -109,7 +111,7 @@
             }
             //hovering transitions colors
             &:hover{
-                color: rgba(255,255, 225, .98);
+                color: #C8D1E8;
                 transition: .5s;
             }
           }
@@ -124,12 +126,12 @@
 
 //Sevice Call icon
 #serviceIcon{
-  background: url('imgs/RmService.png') no-repeat;
+  background: url('imgs/ServiceCallWhite.png') no-repeat;
   background-size: contain;
 }
 
 #meterIcon{
-  background: url('imgs/RmMeter.png') no-repeat;
+  background: url('imgs/counterReadwhite.png') no-repeat;
   background-size: contain;
 }
 

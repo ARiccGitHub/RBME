@@ -6,7 +6,7 @@
 #footer{
   height: 100px;
   width: 100%;
-  border-top: 1px solid #000;
+  background-color: #000;
   display: flex;
   justify-content: space-around;
   //Foofter Features Wrapper
@@ -25,23 +25,23 @@
       justify-content: space-around;
       align-items: center;
       span{
-        margin-right: -30%;
         transition: .5s;
       }
       h1{
+        margin-left: -29%;
         font-size: 2em;
         a{
           //unvisited links
           &:link {
-            color: #030303;
+            color: #FFF;
           }
           //visited links
           &:visited {
-              color: #030303;
+              color: #FFF;
           }
           //hovering transitions colors
           &:hover{
-              color: #656B6F;
+              color: #C8D1E8;
               transition: .5s;
           }
         }//a

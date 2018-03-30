@@ -20,17 +20,13 @@
   align-items: flex-end;
   //hero Content Wrapper
   #heroContentWrapper{
-    height: 15%;
-    width: 15%;
-    margin-right: 20%;
-    margin-bottom: 7%;
-    position: sticky;
+    height: 25%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
     //Learn more button
     #button{
-      position: sticky;
       height: 43px;
       width: 136px;
       border-radius: 15px;
