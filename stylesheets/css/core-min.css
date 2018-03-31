@@ -213,9 +213,12 @@ a {
   justify-content: center;
   align-items: center;
   user-select: none; }
+  @media (max-width: 1000px) {
+    #heroStatement {
+      height: 30%; } }
   #heroStatement #heroStatementContent {
     height: 100%;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,10 +226,9 @@ a {
     font-size: 3em;
     font-weight: 300;
     line-height: 1.4em; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1000px) {
       #heroStatement #heroStatementContent {
-        font-size: 2em;
-        min-width: 1200px; } }
+        font-size: 2em; } }
     #heroStatement #heroStatementContent strong {
       font-weight: 400; }
 
